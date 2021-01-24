@@ -15,8 +15,8 @@
     "dev-server": "webpack-dev-server --watch",
     "test": "jest --config=jest.config.json",
     "test_watch": "jest  --config=jest.config.json --watch",
-    "start" : "node server/server.js",
-    "heroku-postbuild" : "npm run build:prod"
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -32,6 +32,7 @@
     "node": "^14.15.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
+    "numeral": "^2.0.6",
     "raf": "^3.3.2",
     "react": "16.0.0",
     "react-addons-shallow-compare": "^15.6.0",
@@ -40,7 +41,6 @@
     "react-modal": "2.2.2",
     "react-redux": "^5.0.5",
     "react-router-dom": "^5.2.0",
-    
     "redux": "^4.0.5",
     "sass-loader": "^7.3.1",
     "style-loader": "^2.0.0",
